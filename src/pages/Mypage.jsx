@@ -21,12 +21,12 @@ export default function Mypage() {
   const Test1 = [];
 
   useEffect(() => {
-    SearchRTDB('prkplceNo', '350-4-000008').then((res) => {
-      setData(res);
-    });
-    SearchAreaScope().then((res) => {
-      setLocationData(res);
-    });
+    // SearchRTDB('prkplceNo', '350-4-000008').then((res) => {
+    //   setData(res);
+    // });
+    // SearchAreaScope().then((res) => {
+    //   setLocationData(res);
+    // });
   }, []);
 
   console.log(data, 'hello');
